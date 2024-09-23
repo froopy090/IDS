@@ -6,16 +6,16 @@ public class Data{
     
 
     //costruttore
-    public Data(int g, int m, int a){
-        giorno = g;
-        mese = m;
-        anno = a;
+    public Data(int giorno, int mese, int anno){
+        this.giorno = giorno;
+        this.mese = mese;
+        this.anno = anno;
     }
 
-    public Data(int m, int a){
-        giorno = 1;
-        mese = m;
-        anno = a;
+    public Data(int mese, int anno){
+        this.giorno = 1;
+        this.mese = mese;
+        this.anno = anno;
     }
 
 
@@ -28,7 +28,7 @@ public class Data{
 
     //getters
     public int getGiorno(){
-        return this.giorno;
+        return this.giorno; //qui non ti serve this ma sono abbituato così
     }
 
     public int getMese(){

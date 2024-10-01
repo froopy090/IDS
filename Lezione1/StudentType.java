@@ -1,3 +1,6 @@
+//using enums has advantages: you don't have to have a separate class for everything
+//disadvantages: you lose the benfits of classes
+//so only use an enum for something that probably won't change over time, like the days of the week is a good example
 public enum StudentType{
     ING("Ingegneria"),
     ARCH("Architettura"),
